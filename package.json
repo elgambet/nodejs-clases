@@ -1,0 +1,16 @@
+{
+  "name": "clase_1",
+  "version": "0.0.1",
+  "description": "Intro Nodejs y NPM",
+  "main": "index.js",
+  "keywords": [
+    "intro",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Pablo Gambetta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
