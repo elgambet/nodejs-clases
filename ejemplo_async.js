@@ -1,19 +1,20 @@
 /**
-* NodeJS - Clase 1 - Código asincrónico
+* NodeJS - Clase 2 - Código asincrónico
 * 
 * Este ejemplo conciste en iniciar un servidor web con nodejs y probar la utilización
 * de métodos asincrónicos.
 *
 * Modo de uso
 * -----------
-* 1) Ejecutar en una terminal: node ejemplo_async.js
-* 2) Abrir un navegador e ingresar a http://localhost:8080/lenta
-* 3) Abrir una nueva pestaña e ingresar a http://localhost:8080/rapida
-* 4) Notaremos que aunque la ejecución rápida no posee el código bloqueante, la
-*    misma debe esperar a que el paso 2 termine.
-* 5) Ahora repetir los pasos 3 y 4, pero reemplazando http://localhost:8080/rapida
+* 1) Ejecutar npm install
+* 2) Ejecutar en una terminal: node ejemplo_async.js
+* 3) Abrir un navegador e ingresar a http://localhost:8080/lenta
+* 4) Abrir una nueva pestaña e ingresar a http://localhost:8080/rapida
+* 5) Notaremos que aunque la ejecución rápida no posee el código bloqueante, la
+*    misma debe esperar a que el paso 3 termine.
+* 6) Ahora repetir los pasos 4 y 5, pero reemplazando http://localhost:8080/lenta
 *    por http://localhost:8080/lenta-timeout
-* 6) Ahora notaremos que el la ejecución del método "rapida" se ejecuta sin la necesidad
+* 7) Ahora notaremos que el la ejecución del método "rapida" se ejecuta sin la necesidad
 *    de esperar a que finalicé la operación lenta.
 **/
 
@@ -69,7 +70,7 @@ app.get('/rapida', function(req, res, next) {
 
 // Inicializamos el servidor en el puerto 2016
 server.listen(port, function() {
-  console.info('[Clase UNO - CODIGO ASINCRONICO]');
+  console.info('[Clase DOS - CODIGO ASINCRONICO]');
   console.info('Modo de uso');
   console.info('-----------');
   console.info('1) Abrir un navegador e ingresar a http://%s:%s/lenta', host, port);

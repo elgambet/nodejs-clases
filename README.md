@@ -1,11 +1,20 @@
 Este proyecto posee los ejemplos necesarios para entender la clase n° 1 de NodeJS:
 
-1) Entender código bloqueante y no bloqueante
+__1) Hola mundo!__
 
-1.a) npm install
+1.a) node hola_mundo.js
 
-1.b) node ejemplo_async.js
 
-2) Crear un servidor web
+__2) Entender código bloqueante y no bloqueante__
 
-2.a) node hole_mundo.js
+2.a) npm install
+
+2.b) node ejemplo_async.js
+
+
+__3) Importar módulos__
+
+3.a) npm install
+
+3.b) node ejemplo_modulos.js
+
