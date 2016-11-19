@@ -52,7 +52,7 @@ var asyncFake = function(callback){
   return callback();
 };
 app.get('/lenta-callback', function(req, res, next) {
-  lentaCallback(function(){
+  asyncFake(function(){
     return res.send('LA FUNCION LENTA-CALLBACK TERMINO');
   });
 });
