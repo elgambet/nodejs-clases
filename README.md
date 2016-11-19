@@ -1,4 +1,4 @@
-Este proyecto posee los ejemplos necesarios para entender la clases de NodeJS:
+Este proyecto posee los ejemplos necesarios para entender las clases de NodeJS:
 
 __1) Hola mundo!__
 
