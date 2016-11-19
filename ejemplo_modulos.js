@@ -15,7 +15,7 @@
 var express = require('express');
 
 // Incluimos un módulo CORE
-var http   = require('http');
+var http = require('http');
 
 // Incluimos un módulo PROPIO
 var mensaje = require('./modulos/mi_modulo.js');

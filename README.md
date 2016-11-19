@@ -18,3 +18,9 @@ __3) Importar módulos__
 
 3.b) node ejemplo_modulos.js
 
+
+__3) Incluir archivos__
+
+3.a) npm install
+
+3.b) node ejemplo_fs.js
